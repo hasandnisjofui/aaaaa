@@ -1,0 +1,173 @@
+main {
+  background-color: #edf3f8;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pustoy {
+  width: 250px;
+}
+.alar {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.alar a {
+  text-decoration: none;
+  color: gray;
+}
+.btn {
+  width: 173px;
+  height: 48px;
+  background-color: #ba4270;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right img {
+  width: 363px;
+  height: 600px;
+}
+.left {
+  width: 546px;
+}
+.left h1 {
+  font-size: 50px;
+}
+.icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  .alar {
+    display: none;
+  }
+  .icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+}
+.qora{
+  background-color: #1B262F;
+  color: white;
+  display: flex;
+
+}
+.left1{
+  
+  width: 445px;
+}
+.sss{
+width: 300px;
+padding-left: 100px;
+}
+.ddd{
+  padding-left: 110px;
+font-size: 30px;
+}
+.aaa{
+  width: 130px;
+}
+.bbb{
+  height: 30px;
+}
+.btn3{
+  color: white;
+  width: 85px;
+  height: 28px;
+  border-radius: 50px;
+ background: none;
+ border: 1px solid white;
+ margin-left: 100px;
+
+}
+.div{
+  background-color: #1B262F;
+ 
+ width: 100%;
+}
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+  }
+  .section2{
+    flex-direction: column;
+  }
+  .right1{
+    flex-direction: column;
+  }
+
+  
+}
+@media (max-width: 375px) {
+  .alar {
+    display: none;
+  }
+  .icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+}
+.section2{
+  background-color: #1B262F;
+  height: 472px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left1{
+  width: 445px;
+  /* height: 272px; */
+  color: white;
+}
+.left1 h1{
+  font-size: 50px;
+}
+.left1 p{
+  font-size: 20px;
+}
+.button{
+  width: 129px;
+  height: 48px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.right1{
+  /* width: 536px; */
+  /* height: 103px; */
+}
+.img1{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  width: 536px;
+  height: 90px;
+}
+.img2{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+  /* width: 536px; */
+  height: 90px;
+}
+
